@@ -172,4 +172,210 @@ button:hover {
 .spacer {
   height: 50px;
 }
+
+#about, #books, #news, #subscribe {
+  padding: 30px 10px;
+}
+
+h2, h5, #subscribe {
+  text-align: center;
+}
+
+#about > div, #books > div, #news > div, #subscribe > div, footer > div {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#about p, #about div > h2 {
+  text-align: left;
+  color: #767676;
+}
+
+.about_img {
+  display: none;
+}
+
+#about p {
+  margin-bottom: 40px;
+}
+
+#news a, .knygos_apacia a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  display: inline-block;
+  margin: 25px;
+}
+
+.inner_news div:nth-of-type(5) {
+  display: none;
+}
+
+.knygos_apacia a {
+  margin: 0;
+}
+
+#books, #subscribe {
+  background-color: #f5f5f5;
+}
+
+form button {
+  margin-top: 35px;
+}
+
+input {
+  background-color: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  text-align: center;
+  line-height: 2rem;
+  width: 80%;
+  margin-top: 25px;
+}
+
+footer {
+  background-color: #2a2a2a;
+  color: white;
+  padding: 25px;
+}
+
+footer p {
+  color: darkgray;
+  font-weight: 100;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer img {
+  width: unset;
+}
+
+.atsiskaitymai img {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.atsiskaitymai img:hover {
+  opacity: 0.9;
+}
+
+.atsiskaitymai img:nth-child(1) {
+  width: 90px;
+}
+
+.atsiskaitymai img:nth-child(2) {
+  width: 55px;
+}
+
+.knyga h3, .knyga h5, .knyga p, .news-post h3, .news-post h6, #news p {
+  text-align: left;
+}
+
+#about p, .knyga p, footer p, #news p {
+  font-size: 12px;
+}
+
+.yellow_btn {
+  background-color: #f8bd59;
+}
+
+.yellow_btn:hover {
+  background-color: #ffb33f;
+}
+
+.knyga, .news-post {
+  border-bottom: 1px solid #b9b9b9;
+  margin-bottom: 30px;
+}
+
+.knygos_apacia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 0;
+}
+
+#news a {
+  margin: 15px auto;
+}
+
+#news a:hover, .knyga a:hover {
+  color: #e9b151;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+div > button {
+  display: block;
+  margin: 0 auto;
+}
+
+.knygos_apacia button {
+  margin: unset;
+}
+
+ul a {
+  color: #767676;
+  line-height: 2rem;
+  font-size: 12px;
+}
+
+ul a:hover {
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+footer > div {
+  margin-bottom: 35px;
+}
+
+footer > h3 {
+  border-bottom: 1px solid #767676;
+}
+
+footer hr {
+  margin: 0;
+  background-color: #767676;
+  width: 100%;
+}
+
+.atsiskaitymai {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.atsiskaitymai img {
+  padding: 15px 25px 15px 0;
+}
+
+#navbar {
+  background-color: white;
+  position: fixed;
+  top: -150px;
+  width: 100%;
+  display: block;
+  -webkit-transition: top 0.3s;
+  transition: top 0.3s;
+  z-index: 100;
+}
 /*# sourceMappingURL=main.css.map */
