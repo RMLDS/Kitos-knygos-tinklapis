@@ -112,7 +112,7 @@ button:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-image: url(img/hero_back.webp);
+  background-image: url("../img/hero_back.webp");
   background-size: cover;
   background-position: center;
   min-height: 75vh;
@@ -634,7 +634,7 @@ footer hr {
   }
   .about_img {
     display: unset;
-    background-image: url("img/img-4.jpg");
+    background-image: url("../img/img-4.jpg");
     height: 65vh;
     background-position: center;
   }
